@@ -1,0 +1,193 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+    background-color: #1F2937;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px
+}
+
+li, #logo{
+color: #E5E7EB;
+}
+
+#logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.firstContent{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 70px;
+    gap: 100px;
+}
+
+.firstContainer{
+    width: 300px;
+}
+
+.firstContainer h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.firstContainer p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.firstContainer button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    padding: 8px 30px 8px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.placeholderImg{
+    background-color: rgb(123, 125, 129);
+    color: #E5E7EB;
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150px;   
+}
+
+.secondContent h2{
+    font-size: 32px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.square{
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    width: 140px;
+    height: 140px;
+}
+
+.secondContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+}
+
+.secondContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 52px;
+}
+
+.squareCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.squareTxt{
+    width: 150px;
+    color: #5c5c5c;
+    font-size: 16px;
+    text-align: center;
+}
+
+.thirdContent{
+    background-color: #E5E7EB;
+    padding: 80px;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.thirdContainer{
+    width: 800px;
+}
+
+.quote{
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+    text-align: center;
+}
+
+.quotePerson{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+}
+
+.actionTxt{
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+.fourthContent{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+
+.actionTxtSmall{
+    color: #F9FAF8;
+    font-size: 12px;
+    margin: 0;
+}
+
+.actionContainer{
+    background-color: #3882F6;
+    width: 800px;
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.signUpBtnTwo{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 8px 30px 8px 30px;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+    height: 40px;
+    width: 130px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: #1F2937;
+    margin-top: 80px;
+    height: 100px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
